@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/CSS-website/static/css/main.2286cfb8.css",
+    "main.js": "/CSS-website/static/js/main.3b64bc9b.js",
+    "static/media/resourcesBackground.png": "/CSS-website/static/media/resourcesBackground.3fee8b1fbf18b28da22d.png",
+    "static/media/membersBackground.png": "/CSS-website/static/media/membersBackground.69134cd0a5e1b15dbc1c.png",
+    "static/media/homeBackground.jpg": "/CSS-website/static/media/homeBackground.dc6c64abcbf47d2d3a4f.jpg",
+    "static/media/slick.svg": "/CSS-website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/CSS-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/CSS-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/CSS-website/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/CSS-website/index.html",
+    "main.2286cfb8.css.map": "/CSS-website/static/css/main.2286cfb8.css.map",
+    "main.3b64bc9b.js.map": "/CSS-website/static/js/main.3b64bc9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2286cfb8.css",
+    "static/js/main.3b64bc9b.js"
+  ]
+}
