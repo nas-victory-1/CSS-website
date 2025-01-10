@@ -1,0 +1,90 @@
+.navbar a {
+  color: white;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/public/assets/homeBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home .overlay {
+  position: absolute;
+  height: 100vh;
+  top: 34px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(5, 5, 91, 0.589);
+}
+
+.writings {
+  width: 60%;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  align-items: start;
+  position: absolute;
+  left: 100px;
+  /* border: 1px solid white; */
+  top: 150px;
+  padding: 10px;
+}
+
+.writings * {
+  color: white;
+}
+
+.societyName {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.writings .societyName h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.writings .societyName p {
+  font-size: 30px;
+  padding: 5px;
+  margin-left: 40px;
+  border-left: 3px solid rgba(74, 48, 243, 0.804);
+}
+
+.societyDescription {
+  width: 40%;
+}
+
+.navbar a {
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .writings {
+    width: 100%;
+    left: 0px;
+  }
+
+  .writings .societyName h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 768px) {
+  .writings {
+    width: 100%;
+    left: 0px;
+    padding: 15px;
+  }
+
+  .home .overlay {
+    top: 55px;
+  }
+}

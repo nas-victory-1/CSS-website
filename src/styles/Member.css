@@ -1,0 +1,29 @@
+.member {
+  box-shadow: 1px 1px 5px rgb(135, 134, 134), -1px -1px 5px rgb(135, 134, 134);
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.member img {
+  width: 200px;
+  height: auto;
+}
+
+.member .name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.member .portfolio {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.member .profile {
+  text-align: center;
+}
